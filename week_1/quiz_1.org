@@ -1,0 +1,145 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Take Care of Your Competitors
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* No\\
+
+Assume a Nash equilibrium with dominated strategies does exist. Then at least
+one player selected a dominated strategy. By definition, this is the worst
+strategy he could have selected. Consequently, this player has at least one
+option that leads to a higher payoff. By switching to this strategy, he can
+deviate from the Nash equilibrium and obtain a better outcome. However, this
+should not be possible. Therefore, our assumption must be wrong. We have just
+concluded that a Nash equilibrium with dominated strategies cannot exist.
+
+* Problem 2
+
+*Answer:* Yes\\
+
+Clearly, opting for the product placement leads to the highest payoff for Mars.
+
+* Problem 3
+
+*Answer:* Yes\\
+
+An example of a game with more than one Nash equilibrium is the Coordination
+Game.
+
+* Problem 4
+
+*Answer:* Low Price\\
+
+In this case, City Cuts corresponds to Player 1, and Toby's Hairstyle
+corresponds to Player 2. Consider the best reply by Player 1 for each strategy
+of Player 2:
+- Player 2 chooses High Price: Player 1 chooses Low Price;
+- Player 2 chooses Low Price: Player 1 chooses High Price.
+Next, consider the best reply by Player 2 for each strategy of Player 1:
+- Player 1 chooses High Price: Player 2 chooses High Price;
+- Player 1 chooses Low Price: Player 2 chooses High Price.
+For Player 2, choosing High Price is always the best strategy. If we assume that
+this player is rational, then this is the option he'll choose. In this case, the
+best reply by Player 1 is selecting Low Price. Notice that this situation
+corresponds to a Nash equilibrium.
+
+* Problem 5
+
+*Answer:* matrix
+
+* Problem 6
+
+*Answer:* 0\\
+
+This game was discussed in one of the lectures. As explained, in this case there
+is no Nash equilibrium. Essentially, the idea is that the best strategy for one
+player leaves the worst strategy as the only option for the other player.
+
+* Problem 7
+
+*Answer:* \( 2<x<5 \)\\
+
+First recall that, for a game to be a prisoner's dilemma, the following must
+hold:
+- non-cooperation is the best strategy for each player;
+- mutual cooperation is superior to mutual non-cooperation.
+With that in mind, let us analyze this game's payoff table. We begin by
+identifying the best reply by Player 1 for each strategy of Player 2:
+- Player 2 chooses Advertise: Player 1 chooses Do not advertise;
+- Player 2 chooses Do not advertise: Player 1 chooses Do not advertise.
+Hence the option not to advertise is always the best strategy for Player 1. We
+want this to also be true for Player 2. So consider the best reply by this
+player for each strategy of Player 1:
+- Player 1 chooses Advertise: Player 2 chooses Do not advertise;
+- Player 1 chooses Do not advertise:
+  + Player 2 chooses Advertise if \( x<2 \);
+  + Player 2 chooses Do not advertise if \( x>2 \).
+Therefore, the requirement that non-cooperation is the best option for each
+player allows us to conclude that \( x>2 \). Moreover, since mutual cooperation
+has to be superior to mutual non-cooperation, the inequality \( x<5 \) needs to
+be satisfied. Hence: \( 2<x<5 \).
+
+* Problem 8
+
+*Answer:* A player's plan of actions in a game.
+
+* Problem 9
+
+*Answer:* Yes\\
+
+Imagine Lufthansa enters the market. If British Airways doesn't start a price
+war, then its payoff is 200. On the other hand, if this company starts a price
+war, then its payoff is 300. Since this value is higher, British Airways has an
+incentive to start a price war if Lufthansa enters the UK market. Therefore, the
+threat is credible.
+
+* Problem 10
+
+*Answer:* Sensodyne - Do not advertise\\
+
+Consider the possible replies by Player 1 for each strategy of Player 2:
+- Player 2 chooses Advertise:
+  + Advertise is the best action;
+  + Do not advertise is the worst action.
+- Player 2 chooses Do not advertise:
+  + Advertise is the best action;
+  + Do not advertise is the worst action.
+Therefore, for Player 1, Do not advertise is a dominated strategy.\\
+Next, consider the possible replies by Player 2 for each strategy of Player 1:
+- Player 1 chooses Advertise:
+  + Advertise is the best action;
+  + Do not advertise is the worst action.
+- Player 1 chooses Do not advertise:
+  + Do not advertise is the best action;
+  + Advertise is the worst action.
+Then, for Player 2, there is no dominated strategy. Consequently, the only
+correct answer is "Sensodyne - Do not advertise".
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
