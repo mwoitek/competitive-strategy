@@ -1,0 +1,189 @@
+% Created 2024-07-14 Sun 13:07
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+\usepackage[american, english]{babel}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\renewcommand{\labelitemi}{$\rhd$}
+\setlength\parindent{0pt}
+\setlist[itemize]{leftmargin=*}
+\setlist{nosep}
+\date{}
+\title{Why Firms Work Together}
+\hypersetup{
+ pdfauthor={Marcio Woitek},
+ pdftitle={Why Firms Work Together},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.8)}, 
+ pdflang={English}}
+\begin{document}
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\section*{Problem 1}
+\label{sec:orged8b7a8}
+
+\textbf{Answer:} Games with finite repetitions\\
+
+This was explained in the lectures when the Street Lights example was discussed.
+The basic idea is that, in the last repetition, no threat is credible. As a
+result, players have an incentive not to cooperate. Then, by using backward
+induction, it's possible to conclude that players will never cooperate. This is
+the so-called endgame effect.
+\section*{Problem 2}
+\label{sec:orgd0aaf3c}
+
+\textbf{Answer:}
+\begin{itemize}
+\item Soft commitment
+\end{itemize}
+\section*{Problem 3}
+\label{sec:orgf7f6e06}
+
+\textbf{Answer:} Boeing launches the 747X, Airbus does not launch the A380\\
+
+Boeing plays aggressive commitment. This means Boeing commits to producing the
+747X airplane. At this point, Airbus has two options:
+\begin{itemize}
+\item Airbus will produce the A380 airplane:
+\begin{itemize}
+\item Payoff for Boeing: -3;
+\item Payoff for Airbus: -4.
+\end{itemize}
+\item Airbus will NOT produce the A380 airplane:
+\begin{itemize}
+\item Payoff for Boeing: 7;
+\item Payoff for Airbus: 3.
+\end{itemize}
+\end{itemize}
+In this case, using backward induction is trivial. After all, Boeing already
+commited to a particular strategy. Consequently, there is only one subgame that
+needs to be analyzed. Specifically, we only need to identify the best strategy
+for Airbus. In order to maximize its payoff, Airbus should not produce the A380.
+Therefore, the outcome of this game will be as follows:
+\begin{itemize}
+\item Boeing launches the 747X, and
+\item Airbus does not launch the A380.
+\end{itemize}
+\section*{Problem 4}
+\label{sec:orge254c9c}
+
+\textbf{Answer:} No change\\
+
+We begin by analyzing a single repetition of this game. Consider the best reply
+by City Cuts for each strategy of Toby's Hairstyle:
+\begin{itemize}
+\item Toby's Hairstyle charges a high price: City Cuts charges a low price;
+\item Toby's Hairstyle charges a low price: City Cuts charges a high price.
+\end{itemize}
+Next, consider the best reply by Toby's Hairstyle for each strategy of City
+Cuts:
+\begin{itemize}
+\item City Cuts charges a high price: Toby's Hairstyle charges a high price;
+\item City Cuts charges a low price: Toby's Hairstyle charges a high price.
+\end{itemize}
+Therefore, for Toby's Hairstyle, charging a high price is always the best
+strategy. Moreover, for this company, it makes no difference if there's
+cooperation or not. In both cases, if this player selects its best strategy,
+then its payoff will be the same. This value corresponds to its maximum payoff.
+So Toby's Hairstyle is free to choose its best option every time, since there
+will be no repercussion. In other words, this player has no reason to deviate
+from what's best for itself. As a consequence, its opponent has no reason to
+respond differently. Hence the outcome of this game will not change.
+\section*{Problem 5}
+\label{sec:org302a47e}
+
+\textbf{Answer:} Between 0.25 and 1\\
+
+This game is very similar to the Diamond Cartel game. However, in the present
+case, the payoff from cooperating is
+\begin{equation}
+P_c=\frac{120}{2}\frac{1}{1-p}=\frac{60}{1-p},
+\end{equation}
+where \(p\) denotes the probability that there will be a next season.
+Moreover, the payoff from deviating is \(P_d=80\). The airlines will cooperate
+when the payoff from cooperating is greater than the payoff from deviating:
+\(P_c>P_d\). Hence:
+\begin{align}
+  \begin{split}
+    P_c&>P_d\\
+    \frac{60}{1-p}&>80\\
+    \frac{3}{1-p}&>4\\
+    \frac{1-p}{3}&<\frac{1}{4}\\
+    1-p&<\frac{3}{4}\\
+    p-1&>-\frac{3}{4}\\
+    p&>1-\frac{3}{4}\\
+    p&>\frac{1}{4}
+  \end{split}
+\end{align}
+Since \(p\) represents a probability, the inequality \(p\leq 1\) must also
+hold. Therefore, the correct answer is ``Between 0.25 and 1''.
+\section*{Problem 6}
+\label{sec:org6ba20f1}
+
+\textbf{Answer:}
+\begin{itemize}
+\item High importance of future payoffs
+\end{itemize}
+\section*{Problem 7}
+\label{sec:org68b879b}
+
+\textbf{Answer:} \(M=120\) or greater\\
+
+In this case, the probability that there will be a new game is \(p=0.5\).
+Hence:
+\begin{equation}
+\frac{1}{1-p}=\frac{1}{1-\frac{1}{2}}=2.
+\end{equation}
+This result allows us to write the payoff from cooperating as follows:
+\begin{equation}
+\frac{M}{2}\frac{1}{1-p}=\frac{M}{2}\cdot 2=M.
+\end{equation}
+The companies will cooperate when this payoff is larger than the payoff from
+deviating, which is 120. Therefore, the following inequality must be satisfied:
+\(M>120\).
+\section*{Problem 8}
+\label{sec:org5052b50}
+
+\textbf{Answer:} Situation with low interest rates\\
+
+By analyzing the expression for the payoff from cooperating given in one of the
+lectures, we conclude that this payoff tends to infinity as the interest rate
+approaches zero. Equivalently, we can say that, when the interest rate is small,
+the payoff from cooperating is large. As a result, in this case players are more
+likely to cooperate.
+\section*{Problem 9}
+\label{sec:orgc7b6cdf}
+
+\textbf{Answer:}
+\begin{itemize}
+\item It lowers competition
+\item It makes future customers buy earlier
+\end{itemize}
+\section*{Problem 10}
+\label{sec:org376d754}
+
+\textbf{Answer:} No cooperation in first period - No cooperation in second period\\
+
+By inspecting this game's payoff table, one can conclude that this is a
+prisoner's dilemma. In this case, High Price corresponds to cooperation, and Low
+Price corresponds to defection. So we're talking about a prisoner's dilemma with
+a finite number of repetitions. We know that, in a situation like this, the
+endgame effect will be observed. This means players will never cooperate.
+Therefore, both burger stalls will choose to charge a low price every time.
+\end{document}
