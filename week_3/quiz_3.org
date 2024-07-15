@@ -1,0 +1,91 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Complementary Products and Strategic Partnerships
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:*
+- Market for ink cartridges may be unattractive.
+- Lack of competencies which are required for the production.
+- Prospective customers might be put off by your dominant position.
+
+* Problem 2
+
+*Answer:*
+- \( > \)
+
+* Problem 3
+
+*Answer:*
+- Joint equity ownership
+- Coordination mechanisms
+- Organizational integration
+- Shared decision making
+
+* Problem 4
+
+*Answer:* True
+
+* Problem 5
+
+*Answer:*
+- Cross subsidies
+- Bundling
+- Increasing lock-in
+
+* Problem 6
+
+*Answer:*
+- Alignment of interests
+- Feasibility of inter-organizational coordination
+
+* Problem 7
+
+*Answer:* Economic Integration
+
+* Problem 8
+
+*Answer:* Product A is sold at small margins (even loss) to increase sales of
+complementary product B (high margins).
+
+* Problem 9
+
+*Answer:*
+- Higher sales of complement
+- Higher quality of complement
+
+* Problem 10
+
+*Answer:*
+- PC and Monitor
+- Video Console and Video Game
+- Toothbrush and Toothpaste
+- Car and Fuel
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
