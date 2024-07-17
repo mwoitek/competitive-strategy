@@ -1,0 +1,139 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Entering a New Market
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* Yes\\
+
+To answer this question, we're going to apply the ideas explained in the lecture
+titled "Judo Economics/Niche Market". Since British Gas has a monopoly, its
+market share is 100%. Then the market size of British Gas is \( x=50,000 \),
+which corresponds to the number of units of electricity sold daily. Moreover,
+the price this firm charges for a single unit is \( p_H=6 \). London Power
+charges a lower price: \( p_L=4 \). We know that, due to this price being lower,
+all consumers in the Greater London area will switch to London Power. As a
+consequence, the market share for this company will be 50%. In other words, its
+market size will be \( x_E=25,000 \).\\
+As we know, if the incumbent allows the potential entrant to enter the market,
+then the incumbent's loss will be \( p_H x_E \). In this particular case, this
+corresponds to a loss of GBP 150,000. However, if British Gas decides to attack
+London Power by lowering its price to \( p_L \), then British Gas will lose an
+amount given by \( (p_H-p_L)x \). This is equivalent to GBP 100,000. Therefore,
+the incumbent has more to lose by accepting the entrant into the market. This
+means that for British Gas it's better to attack London Power.
+
+* Problem 2
+
+*Answer:* 8\\
+
+First of all, since we were told to assume that the interest rate is zero, it's
+not necessary to discount future profits. In other words, we can simply sum all
+the profits.\\
+We begin by considering period 1. During this period, the incumbent could earn a
+profit of $3 million. However, as a result of its pre-emption strategy, this
+firm ends up making a profit of $2 million. We assume this strategy is
+successful, i.e., it manages to keep the potential entrant out of the market. To
+make sure the entrant will not reconsider its choice in the near future, the
+incumbent will keep operating in accordance with its pre-emption strategy.
+Consequently, the incumbent will also earn a profit of $2 million in the three
+remaining periods. Therefore, the total profit will be $8 million.
+
+* Problem 3
+
+*Answer:*
+- Brand loyalty
+- Control over essential resources by incumbent
+- Experience curve effects
+- Rationing by governments
+
+* Problem 4
+
+*Answer:* Vodafone stays out of the market\\
+
+To answer this question, we apply backward induction. The first sub-game we need
+to consider corresponds to the following situation:
+- Vodafone enters the market;
+- Telefónica decides to retaliate;
+- Vodafone needs to decide whether to stay or exit the market.
+By comparing payoffs, we conclude that Vodafone should exit the market. This is
+true even when this company implements a commitment strategy.\\
+The next sub-game we need to analyze is the following:
+- Vodafone enters the market;
+- Telefónica needs to decide whether to retaliate or not.
+We already know that, if Telefónica retaliates, then Vodafone will exit the
+market. Then, from the incumbent's perspective, the choice is between a profit
+of $5 million (no retaliation) and a profit of $7 million (retaliation).
+Clearly, it's better to retaliate. Therefore, if Vodafone enters the market,
+then this firm will be driven out of the market by Telefónica. In this case, the
+entrant's loss is $2 million.\\
+Finally, consider Vodafone's choice to enter the market. If this company doesn't
+enter, then there will be no profit but also no loss. On the other hand, there
+will be a loss in case this firm enters the market. Consequently, Vodafone
+decides to stay out.
+
+* Problem 5
+
+*Answer:*
+- Commitment
+- Judo Economics
+- Value Chain Reconfiguration
+
+* Problem 6
+
+*Answer:*
+- ...there are many buyers that each represent a small share of the market's
+  overall revenues.
+- ...there is a low degree of competition within the market.
+- ...suppliers have little bargaining power.
+
+* Problem 7
+
+*Answer:*
+- Kroger adds a bakery and a butcher section to its supermarkets.
+- Kroger starts building more supermarkets in the area.
+
+* Problem 8
+
+*Answer:*
+- ...the position of the incumbent within the industry.
+- ...the nature of the industry.
+
+* Problem 9
+
+*Answer:*
+- Limit pricing works in presence of incomplete information only.
+- Limit pricing needs to be implemented before the market entry of a potential
+  competitor.
+
+* Problem 10
+
+*Answer:* Predatory Pricing Strategy
+
+# Local Variables:
+# ispell-alternate-dictionary: "american"
+# End:
