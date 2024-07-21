@@ -1,0 +1,271 @@
+% Created 2024-07-21 Sun 16:58
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+\usepackage[american, english]{babel}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+\renewcommand{\labelitemi}{$\rhd$}
+\setlength\parindent{0pt}
+\setlist[enumerate]{leftmargin=*}
+\setlist[itemize]{leftmargin=*}
+\setlist{nosep}
+\date{}
+\title{Why Worry About Research and Development}
+\hypersetup{
+ pdfauthor={Marcio Woitek},
+ pdftitle={Why Worry About Research and Development},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.8)}, 
+ pdflang={English}}
+\begin{document}
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\section*{Problem 1}
+\label{sec:orgd5e2ced}
+
+\textbf{Answer:}
+\begin{itemize}
+\item \ldots{}a product innovation.
+\item \ldots{}a drastic innovation.
+\end{itemize}
+\section*{Problem 2}
+\label{sec:org98c4baa}
+
+\textbf{Answer:} Neither Garnier nor L'Oréal engage in R\&D\\
+
+To answer this question, first we need to construct the payoff matrix. To do so,
+we look at this situation from Garnier's perspective. The analysis for L'Oréal
+is analogous. If only Garnier decides to invest in R\&D, then the possibilities
+are as follows:
+\begin{itemize}
+\item the research is successful, and the firm earns an additional profit of 32;
+\item the research is unsuccessful, and no additional profit is made.
+\end{itemize}
+Moreover, no matter the outcome, Garnier will have a cost of 10. Notice that
+we're expressing amounts in units of 1 million Euros. Since the probability of
+success is \(p=0.25\), the expected payoff for Garnier can be written as
+\begin{equation*}
+32\cdot p+0\cdot(1-p)-10=32p-10=-2.
+\end{equation*}
+Next, imagine that both firms decide to invest in R\&D. In this case, we have the
+following possibilities:
+\begin{enumerate}
+\item Garnier is successful and L'Oréal isn't;
+\item both companies are successful;
+\item Garnier is unsuccessful.
+\end{enumerate}
+From Garnier's point of view, the corresponding values for the additional
+profit are
+\begin{enumerate}
+\item 32;
+\item 16;
+\item 0.
+\end{enumerate}
+Don't forget about the fixed cost of 10. Then, in this situation, the expected
+payoff for Garnier can be computed as follows:
+\begin{align*}
+  \begin{split}
+    32\cdot p\cdot(1-p)+16\cdot p^2-10&=32p-32p^2+16p^2-10\\
+    &=32p-16p^2-10\\
+    &=32\cdot\frac{1}{4}-16\cdot\frac{1}{16}-10\\
+    &=8-1-10\\
+    &=-3.
+  \end{split}
+\end{align*}
+To continue, we use the fact that Garnier and L'Oréal play symmetrical
+roles. Consequently, the above calculations for Garnier are identical to
+the ones we'd have to perform for L'Oréal. Then, at this point, we know
+most entries of the payoff matrix. To write down this matrix, we need one
+last fact: when both firms decide not to invest in R\&D, there's no loss or
+additional profit for both of them. By combining all we know so far, we
+finally obtain the payoff table for this game:
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Garnier $\backslash$ L'Oréal & No R\&D & R\&D\\
+\hline
+No R\&D & 0 / 0 & 0 / -2\\
+R\&D & -2 / 0 & -3 / -3\\
+\hline
+\end{tabular}
+\end{center}
+By analyzing this table, it's possible to conclude that ``No R\&D'' is a
+dominant strategy for both players. If we assume they're rational, then
+this is the strategy they'll choose. Therefore, no company engages in R\&D.
+\section*{Problem 3}
+\label{sec:org034e1ef}
+
+\textbf{Answer:}
+\begin{itemize}
+\item Monopolist with threat of an entrant
+\end{itemize}
+\section*{Problem 4}
+\label{sec:orgf804de7}
+
+\textbf{Answer:}
+\begin{itemize}
+\item \ldots{}are accused of hindering technological progress.
+\item \ldots{}have been criticised by competition authorities in the past.
+\item \ldots{}are used by companies to maintain a dominant position in their product
+markets.
+\item \ldots{}are used by companies to prevent competitors from inventing a close
+rival to the own product.
+\end{itemize}
+\section*{Problem 5}
+\label{sec:orgfb00b5e}
+
+\textbf{Answer:}
+\begin{itemize}
+\item When it comes to decide about R\&D processes, firms often face a trade-off
+between the chances of achieving innovations with promising returns on
+the one side, and the risks of losing R\&D investments on the other side.
+\item When undertaking a R\&D project, firms often face the threat that a
+competitor comes up with the innovation first and absorbs the whole
+market potential of the innovation.
+\item Directly after implementing a drastic innovation, the innovator can
+behave like a monopolist in the market.
+\end{itemize}
+\section*{Problem 6}
+\label{sec:orgf49c7f5}
+
+\textbf{Answer:} Yes\\
+
+To answer this question, we need to compute the value of the innovation. We
+begin by calculating the profit without the innovation. We denote this
+amount by \(P_b\). By using the data given in the problem statement, we
+can compute this profit as follows:
+\begin{align*}
+  \begin{split}
+    P_b&=600\cdot(4-2)+400\cdot(3-2)\\
+    &=600\cdot 2+400\cdot 1\\
+    &=1200+400\\
+    &=1600.
+  \end{split}
+\end{align*}
+Then, before the innovation, the company earns a profit of 1600 Euros.\\
+Next, consider the profit with the innovation, \(P_a\). If the
+consultancy firm is correct, we'll have the following situation:
+\begin{itemize}
+\item 600 consumers are willing to pay 5 Euros per coffee capsule;
+\item 400 consumers are willing to pay 4 Euros per coffee capsule.
+\end{itemize}
+Since the production cost is still 2 Euros per coffee capsule, the profit
+\(P_a\) can be written as
+\begin{align*}
+  \begin{split}
+    P_a&=600\cdot(5-2)+400\cdot(4-2)\\
+    &=600\cdot 3+400\cdot 2\\
+    &=1800+800\\
+    &=2600.
+  \end{split}
+\end{align*}
+This means the innovation will lead to a higher profit of 2600 Euros.\\
+Finally, consider the value of the innovation. In this case, this amount
+corresponds to the difference \(P_a-P_b=1000\) Euros. Since the
+consultancy firm is charging half of this value for the innovation, it's a
+good idea to accept the deal.
+\section*{Problem 7}
+\label{sec:org21b4185}
+
+\textbf{Answer:} 249000\\
+
+Since all companies have an equal share of the market, our firm sells
+100,000 kg of paper. Moreover, every company charges the same price for
+1,000 kg of paper. We denote this price by \(p\). Then, without the
+innovation, our profit is
+\begin{equation*}
+P_b=100\cdot(p-500)=100p-50000.
+\end{equation*}
+Next, consider the situation after the innovation. In this case, we reduce
+our price to \(p-1\). As a result, we take over the market, and start to
+sell 1,000,000 kg of paper. Furthermore, our production cost becomes half
+of what it was. More precisely, to produce a ton of paper, now we have to
+spend 250 Euros. By combining all this information, we can determine the
+profit with the innovation as follows:
+\begin{equation*}
+P_a=1000\cdot(p-1-250)=1000p-251000.
+\end{equation*}
+Hence, we can express the value of the innovation as
+\begin{align*}
+  \begin{split}
+    V&=P_a-P_b\\
+    &=1000p-251000-(100p-50000)\\
+    &=1000p-251000-100p+50000\\
+    &=900p-201000\\
+    &=100(9p-2010).
+  \end{split}
+\end{align*}
+To get a number from this expression, we need to know the value of the
+price \(p\). We can calculate this price with the aid of the following
+fact: originally, all companies are in perfect price competition.
+Consequently, the profit \(P_b\) is zero: \(P_b=0\). By solving this
+equation for \(p\), we get
+\begin{align*}
+  \begin{split}
+    P_b&=0\\
+    100p-50000&=0\\
+    p-500&=0\\
+    p&=500
+  \end{split}
+\end{align*}
+Therefore, without the innovation, every company charges 500 Euros for a
+ton of paper. With the aid of this result, we can finish the calculation of
+\(V\):
+\begin{align*}
+  \begin{split}
+    V&=100(9p-2010)\\
+    &=100\cdot(9\cdot 500-2010)\\
+    &=100\cdot(4500-2010)\\
+    &=100\cdot 2490\\
+    &=249000.
+  \end{split}
+\end{align*}
+Hence the value of the innovation is 249,000 Euros.
+\section*{Problem 8}
+\label{sec:org7fd4aa6}
+
+\textbf{Answer:} Efficiency Effect
+\section*{Problem 9}
+\label{sec:orgd4bd27c}
+
+\textbf{Answer:} 9,900 Euros\\
+
+First, consider the profit without the innovation. Originally, my company
+sells tires to a fifth of all customers, i.e., 20 customers. However, for a
+set of tires, the production cost is equal to the price. Consequently,
+before the innovation, my profit is zero: \(P_b=0\).\\
+Next, we analyze the situation after the innovation. In this case, the cost
+to produce a set of tires is 100 Euros. Moreover, if I reduce my price to
+199 Euros, my firm takes over the market and starts to sell tires to all
+100 consumers. By combining all this information, we can compute the profit
+with the innovation as follows:
+\begin{equation*}
+P_a=100\cdot(199-100)=9900.
+\end{equation*}
+Then the innovation leads to a higher profit of 9,900 Euros. Since
+\(P_b=0\), the amount we've just obtained also corresponds to the value
+of the innovation.
+\section*{Problem 10}
+\label{sec:org621f37a}
+
+\textbf{Answer:}
+\begin{itemize}
+\item \ldots{}is subject to knowledge spillovers.
+\end{itemize}
+\end{document}
