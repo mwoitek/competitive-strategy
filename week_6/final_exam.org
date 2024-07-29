@@ -1,0 +1,369 @@
+:PROPERTIES:
+:UNNUMBERED: notoc
+:END:
+
+#+AUTHOR: Marcio Woitek
+#+TITLE: Final Exam
+#+LANGUAGE: en
+#+LATEX_HEADER: \usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm]{geometry}
+#+LATEX_HEADER: \usepackage[american]{babel}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage[sc]{mathpazo}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \linespread{1.05}
+#+LATEX_HEADER: \renewcommand{\labelitemi}{$\rhd$}
+#+LATEX_HEADER: \setlength\parindent{0pt}
+#+LATEX_HEADER: \setlist[enumerate]{leftmargin=*}
+#+LATEX_HEADER: \setlist[itemize]{leftmargin=*}
+#+LATEX_HEADER: \setlist{nosep}
+#+OPTIONS: ':t
+#+OPTIONS: author:nil
+#+OPTIONS: date:nil
+#+OPTIONS: title:nil
+#+OPTIONS: toc:nil
+#+STARTUP: hideblocks
+
+#+BEGIN_SRC latex
+\thispagestyle{empty}
+\pagestyle{empty}
+#+END_SRC
+
+* Problem 1
+
+*Answer:* Yes\\
+
+This problem is very similar to Problem 1 of Quiz 4. The interpretation is
+different, but the values are the same. As a consequence, the conclusion is
+the same: the monopolist should attack the entrant. Equivalently, British
+Telecom should attack London Calls.
+
+* Problem 2
+
+*Answer:* No
+
+* Problem 3
+
+*Answer:* Sony receives payoffs of \texteuro4 mn / Philips receives payoffs
+of \texteuro2 mn\\
+
+Sony will be ready first. Consequently, this firm will adopt its own
+standard. According to the payoff table, this leads to a payoff of
+\texteuro4 million for Sony. At this point, the best reply by Philips is to
+also adopt its competitor's standard. If we assume that Philips is a
+rational player, then it will choose its best strategy. As a result, its
+payoff will be \texteuro2 million.
+
+* Problem 4
+
+*Answer:*
+- A monopolist in a market will consider deterring entry if this strategy
+  changes the entrant's expectations about the nature of post-entry
+  competition.
+- Judo Economics can only be successful if the entrants signal the
+  incumbents that they do not intend to increase their capacity drastically
+  in the future.
+- Firms which are direct competitors can also be complementors.
+- In repeated interactions between companies, cooperation is more likely if
+  ceteris paribus future payments are more important.
+
+* Problem 5
+
+*Answer:*
+- In a Nash Equilibrium, any individual player cannot gain from
+  unilaterally deviating from its strategy when all other players are
+  playing their assigned strategies.
+
+* Problem 6
+
+*Answer:*
+- Yes. You could now decrease the price for your game console and sell more
+  devices which raises demand for the sports game. This cross-subsidizing
+  strategy may maximize the overall profits of the combined company.
+- Yes. You could now sell your console exclusively in a package with the
+  sports game. Assuming that there is low competition for video consoles
+  and high competition for video games, this increases the sales for the
+  sports game and hence maximizes the overall profits of the combined
+  company.
+
+* Problem 7
+
+*Answer:*
+- ...Burger King could focus on offering beef burgers whereas McDonalds
+  only sells chicken burgers. This is called horizontal differentiation.
+- ...Burger King could sell premium burgers from organic sources whereas
+  McDonalds offers ordinary burgers of standard quality. This is called
+  vertical differentiation.
+
+* Problem 8
+
+*Answer:* Coca Cola will deviate / Pepsi will deviate\\
+
+For the sake of clarity, first we construct the payoff table for this game.
+To do so, let us summarize the information we were given in the problem
+statement. Every value will be expressed in units of \texteuro1 k.
+- Cooperation from both companies: Each company gets half of 855.
+- Non-cooperation from both companies: Each company gets 180.
+- One company cooperates, the other deviates: the cooperating company gets
+  160, and the deviating company gets 530.
+Then the payoff matrix for this game is
+#+ATTR_LATEX: :align |c|c|c|
+|-------------------+-------------------------------------------+-----------|
+| Coca Cola \ Pepsi | Cooperate                                 | Deviate   |
+|-------------------+-------------------------------------------+-----------|
+| Cooperate         | \( \frac{855}{2} \) / \( \frac{855}{2} \) | 160 / 530 |
+| Deviate           | 530 / 160                                 | 180 / 180 |
+|-------------------+-------------------------------------------+-----------|
+It's useful to know that \( \frac{855}{2}=427.5 \). First, consider the
+best reply by Pepsi for each strategy of Coca Cola:
+- Coca Cola cooperates: Pepsi deviates;
+- Coca Cola deviates: Pepsi deviates.
+Hence deviating is a dominant strategy for Pepsi. Next, consider the best
+reply by Coca Cola for each strategy of Pepsi:
+- Pepsi cooperates: Coca Cola deviates;
+- Pepsi deviates: Coca Cola deviates.
+This means that non-cooperation is also the dominant strategy for Coca
+Cola. If we assume both players are rational, then each player will choose
+its dominant strategy. In other words, both companies will decide to
+deviate.
+
+* Problem 9
+
+*Answer:*
+- In special situations monopolists can have high incentives to invest in
+  R&D.
+- The value of innovation can be higher for firms in a competitive market
+  than for a monopolist.
+
+* Problem 10
+
+*Answer:*
+- \( 15p-10p^2-10 \)
+- \( p(1-p)\cdot15+5p^2-10 \)\\
+
+We begin by summarizing the relevant information:
+- For A, the fixed R&D costs are $10 million;
+- If only one company is successful, then its payoff will be $15 million;
+- If both companies succeed, then the payoff for each firm will be $5
+  million;
+- The probability of success for A or B is \( p \).
+Next, assume both companies engage in R&D. In this case, the expected
+payoff for A can be written as
+\begin{equation*}
+P_A=15p(1-p)+5p^2-10=p(1-p)\cdot15+5p^2-10.
+\end{equation*}
+Equivalently, we can write the following:
+\begin{align*}
+P_A&=15p(1-p)+5p^2-10\\
+&=15p-15p^2+5p^2-10\\
+&=15p-10p^2-10.
+\end{align*}
+
+* Problem 11
+
+*Answer:*
+- ...the description of the actions a player will undertake in any possible
+  circumstance.
+
+* Problem 12
+
+*Answer:* ...to make a sunk investment.
+
+* Problem 13
+
+*Answer:* True
+
+* Problem 14
+
+*Answer:*
+- ...A increases the users' utility from B.
+- ...B increases the users' utility from A.
+- ...the demand for A increases when the price of B drops.
+- ...the demand for B increases when the price of A drops.
+
+* Problem 15
+
+*Answer:*
+- ...changing the entrant's expectations about post-entry competition.
+
+* Problem 16
+
+*Answer:*
+- ...products are sufficiently differentiated.
+
+* Problem 17
+
+*Answer:* Yes, the profits of both companies increase.\\
+
+A similar case was discussed in one of the lectures. When the separation
+between the stalls increases, this leads to reduced price competition. As a
+result, both companies earn larger profits.
+
+* Problem 18
+
+*Answer:* Yes\\
+
+To answer this question, the first step is to draw the game tree for this
+sequential game. This tree is shown below. Its leaf nodes contain the
+payoffs for Rolex and Breitling in the form \( (p_R,p_B) \), where \( p_R \)
+and \( p_B \) denote the changes in gross profits for Rolex and
+Breitling, respectively. Notice that these values are expressed in units of
+\pounds1 million.
+#+BEGIN_SRC latex
+\begin{center}
+\begin{tikzpicture}[
+  level distance = 6em,
+  level 1/.style = {sibling distance = 10em},
+  level 2/.style = {sibling distance = 10em},
+  level 3/.style = {sibling distance = 5em},
+  sloped
+]
+
+\node {Rolex: Accept deal?}
+  child {
+    node {$(1.5,-0.5)$}
+    edge from parent node [above] {Yes}
+  }
+  child {
+    node {Breitling: Accept deal?}
+      child {
+        node {Breitling: Got lucky?}
+          child {
+            node {$(-1.5,3)$}
+            edge from parent node [above] {Yes}
+          }
+          child {
+            node {$(-0.5,2)$}
+            edge from parent node [above] {No}
+          }
+        edge from parent node [above] {Yes}
+      }
+      child {
+        node {$(0,0)$}
+        edge from parent node [above] {No}
+      }
+    edge from parent node [above] {No}
+  };
+
+\end{tikzpicture}
+\end{center}
+#+END_SRC
+This game has an element of uncertainty. When Breitling accepts the deal,
+this company can get lucky. But we don't know for sure if that's going to
+happen. We only know the corresponding probability: \( p=0.5 \). To be
+honest, I'm not sure about how to deal with this kind of game. Perhaps I'm
+wrong, but I believe the lectures don't cover this topic. So I'll adopt the
+approach that seems most reasonable to me. Specifically, I'm going to
+replace the sub-tree rooted at "Breitling: Got lucky?" with a leaf node.
+This node will contain the expectation values of the payoffs for Rolex and
+Breitling. For Rolex, this expectation value can be computed as follows:
+\begin{align*}
+E[p_R]&=(-1.5)p+(-0.5)(1-p)\\
+&=-1.5p-0.5(1-p)\\
+&=-1.5p-0.5+0.5p\\
+&=-p-0.5\\
+&=-0.5-0.5\\
+&=-1.
+\end{align*}
+Similarly, for Breitling we can write the following:
+\begin{align*}
+E[p_B]&=3p+2(1-p)\\
+&=3p+2-2p\\
+&=p+2\\
+&=0.5+2\\
+&=2.5.
+\end{align*}
+By using these results, we can draw the new game tree:
+#+BEGIN_SRC latex
+\begin{center}
+\begin{tikzpicture}[
+  level distance = 6em,
+  level 1/.style = {sibling distance = 10em},
+  level 2/.style = {sibling distance = 10em},
+  sloped
+]
+
+\node {Rolex: Accept deal?}
+  child {
+    node {$(1.5,-0.5)$}
+    edge from parent node [above] {Yes}
+  }
+  child {
+    node {Breitling: Accept deal?}
+      child {
+        node {$(-1,2.5)$}
+        edge from parent node [above] {Yes}
+      }
+      child {
+        node {$(0,0)$}
+        edge from parent node [above] {No}
+      }
+    edge from parent node [above] {No}
+  };
+
+\end{tikzpicture}
+\end{center}
+#+END_SRC
+Next, we apply backward induction to determine the outcome of this game. We
+begin by analyzing the sub-tree rooted at "Breitling: Accept deal?". From
+Breitling's perspective, the choice is between making no additional profit
+or increasing its profit by \pounds2.5 million. Then, if this company has
+the chance, it should accept the deal.\\
+Finally, consider what Rolex should do. If this company does *not* accept
+the deal, then its competitor will. In this case, Rolex loses money: its
+gross profit decreases by \pounds1 million. On the other hand, if this firm
+accepts the deal, it will earn an additional profit of \pounds1.5 million.
+This makes it clear that, for Rolex, the best option is to accept the deal.
+As the CEO of this company, that's exactly what I would do.
+
+* Problem 19
+
+*Answer:* False\\
+
+This question is very similar to the first question of Quiz 1. In the
+solution to that quiz, we concluded that a Nash equilibrium with dominated
+strategies cannot exist.
+
+* Problem 20
+
+*Answer:*
+- Limit pricing means that firms are bound to a price cap introduced by the
+  competition authority.
+
+* Problem 21
+
+*Answer:*
+- Perfect market transparency
+- No capacity constraints
+- Infinite price elasticity
+- Identical products
+
+* Problem 22
+
+*Answer:* False
+
+* Problem 23
+
+*Answer:* False
+
+* Problem 24
+
+*Answer:* ...it affects the elasticity of demand of the focal product.
+
+* Problem 25
+
+*Answer:* Pizza Hut - Medium Price / Domino's Pizza - Medium Price\\
+
+First, consider the best reply by Pizza Hut for each strategy of Domino's
+Pizza:
+- Domino's Pizza charges a High price: Pizza Hut charges a High price;
+- Domino's Pizza charges a Medium price: Pizza Hut charges a Medium price;
+- Domino's Pizza charges a Low price: Pizza Hut charges a Medium price.
+Next, consider the best reply by Domino's Pizza for each strategy of Pizza
+Hut:
+- Pizza Hut charges a High price: Domino's Pizza charges a Medium price;
+- Pizza Hut charges a Medium price: Domino's Pizza charges a Medium price;
+- Pizza Hut charges a Low price: Domino's Pizza charges a Low price.
+This makes it clear that this game has a Nash equilibrium characterized by
+both companies charging a medium price. Since the two players are rational,
+the outcome of this game corresponds to this Nash equilibrium.
